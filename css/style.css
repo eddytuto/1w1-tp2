@@ -50,6 +50,7 @@ body {
 #entete header {
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     /* permet de définir le référentiel pour le menu */
     position : relative;
 }
