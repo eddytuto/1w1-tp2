@@ -24,6 +24,11 @@
    ouvrir : les trois barres horizontales apparaît
    fermer : le X apparaît
    */
+
+/* 
+si la case à côcher est côcher alors on fait apparaître l'image «X»
+et on fait disparaître l'image «  burger »
+*/
 #chk_burger:checked ~ #burger img:nth-of-type(2){
     display: block; /* active le X */
 }
