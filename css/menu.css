@@ -39,8 +39,11 @@ et on fait disparaître l'image «  burger »
 
 #burger {
     width : 40px;
-    position: relative;
-     margin-left : auto;
+    position: absolute;
+    margin-left : auto;
+    top:0;
+    right : 0;
+    z-index : 10;
 }
 
 #burger img{
@@ -62,12 +65,13 @@ et on fait disparaître l'image «  burger »
     flex-direction: column;
     position : absolute;
     right : 0;
-    top: 100%;
+    top: 0;
     transform: translateY(-250%);
     transition : transform .25s;
     background-color: #000;
     gap:5px;
     padding : 5px;
+    width : 250px;
    
 }
 

@@ -37,11 +37,19 @@ body {
     display : flex;
     flex: 0 1 1000px;
    /* border: 1px solid #aaa; */
+   /* rendre la couleur plus foncé, ajoute du noir */
     background-color: rgba(0,0,0, .1) ;
+    background-color: rgba(255,255,255, .5) ;
+}
+.global section {
+    flex-direction : column;
 }
 
+
+
 #entete {
-    background-color: rgb(220, 204, 102);
+   /* background-color: rgb(220, 204, 102); */
+   background-image: linear-gradient(0deg, #00ff1c, #ffea00);
     min-height: 1vh;
     position : sticky;
     top:0;
@@ -64,8 +72,13 @@ body {
 }
 
 
-h1{
+h1 {
+    font-size: clamp(2.25rem, -0.0417rem + 7.3333vw, 5rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+h2{
+    font-size: clamp(1.75rem, 0.0833rem + 5.3333vw, 3.75rem);
 }
 
 h2{
