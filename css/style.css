@@ -41,7 +41,8 @@ body {
     background-color: rgba(0,0,0, .1) ;
     background-color: rgba(255,255,255, .5) ;
 }
-.global section {
+.global section,
+.global footer {
     flex-direction : column;
 }
 
@@ -53,6 +54,8 @@ body {
     min-height: 1vh;
     position : sticky;
     top:0;
+    /* Permet à la division #entete d'être au dessus des zones du site */
+    z-index: 10;
 }
 
 #entete header {
