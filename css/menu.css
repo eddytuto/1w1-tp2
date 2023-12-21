@@ -68,13 +68,17 @@ et on fait disparaître l'image «  burger »
     top: 0;
     transform: translateY(-250%);
     transition : transform .25s;
-    background-color: #000;
+    background-color: rgba(0,0,0,.9);
     gap:5px;
     padding : 5px;
     width : 250px;
+    border-radius: 10px;
+    padding: 10px;
    
 }
 
 .menu a {
      color : #fff;
+     font-size: clamp(1.25rem, 0.8929rem + 1.4286vw, 1.875rem);
+     text-decoration: none;
 }
